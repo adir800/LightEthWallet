@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="bootstrap.css">
+<title>Main Menu</title>
+<style>
+.btn-outline-primary {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+</style>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<h1 class="display-3">Main Menu</h1>
+		<br>
+		<div>
+			<!-- <form action="balance.html"> -->
+			<form name="RegisterForm" method="post" action="GetBalance">
+				<input class="btn btn-outline-primary" type="submit" value="Balance" />
+			</form>
+		</div>
+		<br>
+		<div>
+			<form action="send_eth.html">
+				<input class="btn btn-outline-primary" type="submit"
+					value="Send ETH" />
+			</form>
+		</div>
+		<br>
+		<div>
+			<form name="RegisterForm" method="post" action="ShowChannels">
+				<input class="btn btn-outline-primary" type="submit"
+					value="Show Channels" />
+			</form>
+		</div>
+		<br>
+		<div>
+			<form action="login.html">
+				<input class="btn btn-outline-primary" type="submit"
+					value="Logout" />
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

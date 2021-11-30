@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <title>Deposit To Channel</title>
+    <style>
+        .btn-outline-primary {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-3">Deposit To Channel</h1>
+        <br>
+        <form name="RegisterForm" method="post" action="DepositToChannel">
+        <div class="form-group" data-validate="Enter Amount">
+            <input class="form-control" type="number" step="0.01" name="amount" placeholder="Amount">
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-outline-primary">Deposit</button>
+        </div>
+        </form>
+        <br>
+        <div>
+            <form action="ShowChannels"  method="post">
+                <input class="btn btn-outline-primary" type="submit" value="Back" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
